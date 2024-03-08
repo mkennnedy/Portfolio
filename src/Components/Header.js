@@ -41,12 +41,12 @@ const Header = () => {
                 Team
               </a>
             </li>
+            {/*---
             <li>
               <a className="nav-link scrollto" href="#pricing">
                 Pricing
               </a>
-            </li>
-
+  </li>*/}
             <li>
               <a class="nav-link scrollto" href="#contact">
                 Contact
@@ -55,17 +55,23 @@ const Header = () => {
           </ul>
         </nav>
         <div className="header-social-links">
-          <a href="#" className="twitter">
+          <a href="https://www.linkedin.com/in/kenmangeni" className="linkedin">
+            <i className="bi bi-linkedin"></i>
+          </a>
+          <a href="https://github.com/mkennnedy" className="github">
+            <i className="bi bi-github"></i>
+          </a>
+          <a
+            href="https://wa.me/254707391920?text=Hello i Would like to Make an Inquiry"
+            className="whatapp"
+          >
             <i className="bi bi-whatsapp"></i>
           </a>
-          <a href="#" className="facebook">
-            <i className="bi bi-facebook"></i>
+          <a href="#" className="x">
+            <i className="bi bi-twitter-x"></i>
           </a>
           <a href="#" className="instagram">
             <i className="bi bi-instagram"></i>
-          </a>
-          <a href="#" className="linkedin">
-            <i className="bi bi-linkedin"></i>
           </a>
         </div>
         <i className="bi bi-list mobile-nav-toggle"></i>

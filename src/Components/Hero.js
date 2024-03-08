@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import Skills from "./Skills";
 import Header from "./Header";
+import Count from "./Count";
 const Hero = () => {
   useEffect(() => {
     const AOS = require("aos");
@@ -54,7 +55,7 @@ const Hero = () => {
                 data-aos-delay="200"
               >
                 <img
-                  src="Images/ken4.png"
+                  src="Images/kenn.png"
                   className="img-fluid animated"
                   alt=""
                 />
@@ -152,11 +153,14 @@ const Hero = () => {
                   data-aos-delay="150"
                 >
                   <p>
-                    I'm a Freelance Front-end Developer based in the bustling
-                    city of Nairobi, Kenya, with a solid 2 years of hands-on
-                    experience in the field. Passionate about transforming
-                    concepts into engaging web experiences, I've had the
-                    pleasure of collaborating with local and global clients
+                    Mang’eni Kennedy is a proactive ICT professional with over 2
+                    years of experience in web development and IT support. Adept
+                    at leading projects, implementing data-driven strategies,
+                    and collaborating across departments. Excels in translating
+                    client needs into actionable development tasks. Skilled in
+                    web development technologies, frameworks, and GIS. Thrives
+                    in dynamic environments, bringing a results-oriented
+                    approach to ICT projects
                   </p>
                   <section id="skills" class="skills section-bg">
                     <div class="container">
@@ -190,7 +194,7 @@ const Hero = () => {
                     let's connect. I'm here to make your digital journey
                     seamless and successful.
                   </p>
-                  <a href="#" className="btn-learn-more">
+                  <a href="#contact" className="btn-learn-more">
                     Learn More
                   </a>
                 </div>
@@ -207,84 +211,7 @@ const Hero = () => {
                 >
                   <img src="Images/About.jpg" alt="" className="img-fluid" />
                 </div>
-
-                <div
-                  className="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0"
-                  data-aos="fade-left"
-                  data-aos-delay="300"
-                >
-                  <div className="content d-flex flex-column justify-content-center">
-                    <div className="row">
-                      <div class="section-sub-title">
-                        <h2> Why Me</h2>
-                      </div>
-                      <div className="col-md-6 d-md-flex align-items-md-stretch">
-                        <div className="count-box">
-                          <i className="bi bi-emoji-smile"></i>
-                          <span
-                            data-purecounter-start="0"
-                            data-purecounter-end="65"
-                            data-purecounter-duration="1"
-                            className="purecounter"
-                          ></span>
-                          <p>
-                            <strong>Happy Clients</strong> consequuntur voluptas
-                            nostrum aliquid ipsam architecto ut.
-                          </p>
-                        </div>
-                      </div>
-
-                      <div className="col-md-6 d-md-flex align-items-md-stretch">
-                        <div className="count-box">
-                          <i className="bi bi-journal-richtext"></i>
-                          <span
-                            data-purecounter-start="0"
-                            data-purecounter-end="85"
-                            data-purecounter-duration="1"
-                            className="purecounter"
-                          ></span>
-                          <p>
-                            <strong>Projects</strong> adipisci atque cum quia
-                            aspernatur totam laudantium et quia dere tan
-                          </p>
-                        </div>
-                      </div>
-
-                      <div className="col-md-6 d-md-flex align-items-md-stretch">
-                        <div className="count-box">
-                          <i className="bi bi-clock"></i>
-                          <span
-                            data-purecounter-start="0"
-                            data-purecounter-end="18"
-                            data-purecounter-duration="1"
-                            class="purecounter"
-                          ></span>
-                          <p>
-                            <strong>Years of experience</strong> aut commodi
-                            quaerat modi aliquam nam ducimus aut voluptate non
-                            vel
-                          </p>
-                        </div>
-                      </div>
-
-                      <div className="col-md-6 d-md-flex align-items-md-stretch">
-                        <div className="count-box">
-                          <i className="bi bi-award"></i>
-                          <span
-                            data-purecounter-start="0"
-                            data-purecounter-end="15"
-                            data-purecounter-duration="1"
-                            class="purecounter"
-                          ></span>
-                          <p>
-                            <strong>Awards</strong> rerum asperiores dolor alias
-                            quo reprehenderit eum et nemo pad der
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <Count />
               </div>
             </div>
           </section>
@@ -454,18 +381,18 @@ const Hero = () => {
                 <div className="col-lg-3 col-md-4">
                   <div className="icon-box">
                     <i
-                      className="ri-store-line"
+                      className="bi bi-cloud"
                       style={{ color: "#ffbb2c;" }}
                     ></i>
                     <h3>
-                      <a href="">Oracle database</a>
+                      <a href="">Cloud Computing</a>
                     </h3>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                   <div className="icon-box">
                     <i
-                      className="ri-bar-chart-box-line"
+                      className="bi bi-react"
                       style={{ color: "#5578ff;" }}
                     ></i>
                     <h3>
@@ -476,7 +403,7 @@ const Hero = () => {
                 <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                   <div className="icon-box">
                     <i
-                      className="ri-calendar-todo-line"
+                      className="bi bi-rectangle"
                       style={{ color: "#e80368;" }}
                     ></i>
                     <h3>
@@ -487,7 +414,7 @@ const Hero = () => {
                 <div className="col-lg-3 col-md-4 mt-4 mt-lg-0">
                   <div className="icon-box">
                     <i
-                      className="ri-paint-brush-line"
+                      className="bi bi-camera"
                       style={{ color: "#e361ff;" }}
                     ></i>
                     <h3>
@@ -676,11 +603,7 @@ const Hero = () => {
               >
                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div className="portfolio-wrap">
-                    <img
-                      src="Images/portfolio/img3.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
+                    <img src="june_web.jpg" className="img-fluid" alt="" />
                     <div className="portfolio-info">
                       <h4>App 1</h4>
                       <p>App</p>
@@ -693,15 +616,15 @@ const Hero = () => {
                         >
                           <i className="bi bi-plus"></i>
                         </a>
-                        <Link
-                          to="/portfolio"
+                        <a
+                          href="junegeosolution.com"
                           data-gallery="portfolioDetailsGallery"
                           data-glightbox="type: external"
                           className="portfolio-details-lightbox"
                           title="Portfolio Details"
                         >
                           <i className="bi bi-link"></i>
-                        </Link>
+                        </a>
                       </div>
                     </div>
                   </div>
