@@ -211,7 +211,13 @@ const Hero = () => {
                 >
                   <img src="Images/About.jpg" alt="" className="img-fluid" />
                 </div>
-                <Count />
+                <div
+                  class="image col-xl-7 d-flex align-items-stretch justify-content-center justify-content-xl-start"
+                  data-aos="fade-right"
+                  data-aos-delay="150"
+                >
+                  <Count />
+                </div>
               </div>
             </div>
           </section>
@@ -372,9 +378,7 @@ const Hero = () => {
             <div className="container">
               <div className="section-title" data-aos="fade-up">
                 <h2>Interests</h2>
-                <p>
-                  Necessitatibus eius consequatur ex aliquid fuga eum quidem
-                </p>
+                <p></p>
               </div>
 
               <div className="row" data-aos="fade-up" data-aos-delay="300">
@@ -603,26 +607,20 @@ const Hero = () => {
               >
                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div className="portfolio-wrap">
-                    <img src="june_web.jpg" className="img-fluid" alt="" />
+                    <img src="june_web.png" className="img-fluid" alt="" />
                     <div className="portfolio-info">
                       <h4>App 1</h4>
                       <p>App</p>
                       <div className="portfolio-links">
                         <a
-                          href="assets/img/portfolio/portfolio-1.jpg"
+                          href="Images/june_web.png"
                           data-gallery="portfolioGallery"
                           className="portfolio-lightbox"
                           title="App 1"
                         >
                           <i className="bi bi-plus"></i>
                         </a>
-                        <a
-                          href="junegeosolution.com"
-                          data-gallery="portfolioDetailsGallery"
-                          data-glightbox="type: external"
-                          className="portfolio-details-lightbox"
-                          title="Portfolio Details"
-                        >
+                        <a href="junegeosolution.com" title="Portfolio Details">
                           <i className="bi bi-link"></i>
                         </a>
                       </div>
@@ -631,11 +629,28 @@ const Hero = () => {
                 </div>
                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div className="portfolio-wrap">
-                    <img
-                      src="Images/portfolio/img1.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
+                    <img src="Images/img1.jpg" className="img-fluid" alt="" />
+                    <div className="portfolio-info">
+                      <h4>App 1</h4>
+                      <p>App</p>
+                      <div className="portfolio-links">
+                        <a href="Images/img1.jpg" title="App 1">
+                          <i className="bi bi-plus"></i>
+                        </a>
+                        <a
+                          href="portfolio-details.html"
+                          title="Portfolio Details"
+                        >
+                          <i className="bi bi-link"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div className="portfolio-wrap">
+                    <img src="Images/img7.jpg" className="img-fluid" alt="" />
                     <div className="portfolio-info">
                       <h4>App 1</h4>
                       <p>App</p>
@@ -664,50 +679,13 @@ const Hero = () => {
 
                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div className="portfolio-wrap">
-                    <img
-                      src="Images/portfolio/img7.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
+                    <img src="Image/img2.jpg" className="img-fluid" alt="" />
                     <div className="portfolio-info">
                       <h4>App 1</h4>
                       <p>App</p>
                       <div className="portfolio-links">
                         <a
-                          href="assets/img/portfolio/portfolio-1.jpg"
-                          data-gallery="portfolioGallery"
-                          className="portfolio-lightbox"
-                          title="App 1"
-                        >
-                          <i className="bi bi-plus"></i>
-                        </a>
-                        <a
-                          href="portfolio-details.html"
-                          data-gallery="portfolioDetailsGallery"
-                          data-glightbox="type: external"
-                          className="portfolio-details-lightbox"
-                          title="Portfolio Details"
-                        >
-                          <i className="bi bi-link"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                  <div className="portfolio-wrap">
-                    <img
-                      src="Images/portfolio/img2.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <h4>App 1</h4>
-                      <p>App</p>
-                      <div className="portfolio-links">
-                        <a
-                          href="assets/img/portfolio/portfolio-1.jpg"
+                          href="Images/img2.jpg"
                           data-gallery="portfolioGallery"
                           className="portfolio-lightbox"
                           title="App 1"
