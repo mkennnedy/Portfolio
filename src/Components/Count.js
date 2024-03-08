@@ -86,7 +86,7 @@ class Count extends Component {
               data-aos="fade-right"
               data-aos-delay="150"
             >
-              <img src="image6.png" alt="" className="img-fluid" />
+              <img src="Images/About.jpg" alt="" className="img-fluid" />
             </div>
             <div
               className="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0"

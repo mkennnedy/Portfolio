@@ -201,26 +201,9 @@ const Hero = () => {
               </div>
             </div>
           </section>
-          <section id="counts" className="counts">
-            <div class="container">
-              <div class="row">
-                <div
-                  class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start"
-                  data-aos="fade-right"
-                  data-aos-delay="150"
-                >
-                  <img src="Images/About.jpg" alt="" className="img-fluid" />
-                </div>
-                <div
-                  class="image col-xl-7 d-flex align-items-stretch justify-content-center justify-content-xl-start"
-                  data-aos="fade-right"
-                  data-aos-delay="150"
-                >
-                  <Count />
-                </div>
-              </div>
-            </div>
-          </section>
+
+          <Count />
+
           <section id="services" className="services">
             <div className="container">
               <div className="section-title" data-aos="fade-up">
@@ -537,7 +520,7 @@ const Hero = () => {
                             className="testimonial-img"
                             alt=""
                           />
-                          <h3>Matt Brandon</h3>
+                          <h3>Joel</h3>
                           <h4>Freelancer</h4>
                           <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -607,13 +590,13 @@ const Hero = () => {
               >
                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div className="portfolio-wrap">
-                    <img src="june_web.png" className="img-fluid" alt="" />
+                    <img src="/Images/img8.jpg" className="img-fluid" alt="" />
                     <div className="portfolio-info">
                       <h4>App 1</h4>
                       <p>App</p>
                       <div className="portfolio-links">
                         <a
-                          href="Images/june_web.png"
+                          href="Images/img8.jpg"
                           data-gallery="portfolioGallery"
                           className="portfolio-lightbox"
                           title="App 1"
@@ -741,17 +724,13 @@ const Hero = () => {
 
                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div className="portfolio-wrap">
-                    <img
-                      src="Images/portfolio/img6.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
+                    <img src="Images/img6.jpg" className="img-fluid" alt="" />
                     <div className="portfolio-info">
                       <h4>App 1</h4>
                       <p>App</p>
                       <div className="portfolio-links">
                         <a
-                          href="assets/img/portfolio/portfolio-1.jpg"
+                          href="Images/img6.jpg"
                           data-gallery="portfolioGallery"
                           className="portfolio-lightbox"
                           title="App 1"
