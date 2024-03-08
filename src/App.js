@@ -8,10 +8,7 @@ import Portfolio from "./Components/Portfolio";
 function App() {
   return (
     <div cassName="App">
-      <Routes>
-        <Route path="/" element={<Hero />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-      </Routes>
+      <Hero />
     </div>
   );
 }
