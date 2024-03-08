@@ -11,14 +11,14 @@ class Count extends Component {
       count4: 0,
     };
 
-    this.endCount1 = 21;
+    this.endCount1 = 15;
     this.endCount2 = 100;
-    this.endCount3 = 3;
-    this.endCount4 = 10000;
+    this.endCount3 = 2;
+    this.endCount4 = 50;
     this.interval1 = 100; // in milliseconds
     this.interval2 = 200; // in milliseconds
     this.interval3 = 1000; // in milliseconds
-    this.interval4 = 100; // in milliseconds
+    this.interval4 = 20; // in milliseconds
   }
 
   componentDidMount() {
@@ -133,11 +133,11 @@ class Count extends Component {
 
                   <div className="col-md-6 d-md-flex align-items-md-stretch">
                     <div className="count-box">
-                      <i className="bi bi-stop"></i>
+                      <i className="bi bi-folder"></i>
                       <span className="purecounter">{this.state.count4}</span>
                       <p>
-                        <strong>Polygons</strong> we meticulously map every
-                        polygon
+                        <strong>Products</strong> Efficiency in every detail
+                        ensures project success from start to finish
                       </p>
                     </div>
                   </div>
